@@ -3,13 +3,68 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My first site</title>
+    <title>Заур Садыхов | IT-специалист</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>Привет, это мой сайт!</h1>
-    <p>TEST-1-hello-World.</p>
+    <!-- Шапка -->
+    <header>
+        <nav>
+            <div class="logo">👨‍💻 Заур</div>
+            <ul class="menu">
+                <li><a href="#home">Главная</a></li>
+                <li><a href="#skills">Навыки</a></li>
+                <li><a href="#about">Обо мне</a></li>
+                <li><a href="#contact">Контакты</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Главный экран -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Заур Садыхов</h1>
+            <h2>Видеонаблюдение • Сети • Linux</h2>
+            <a href="#contact" class="btn">Связаться со мной</a>
+        </div>
+    </section>
+
+    <!-- Навыки -->
+    <section id="skills" class="skills">
+        <h2>Мои навыки</h2>
+        <div class="skills-grid">
+            <div class="skill-card">
+                <h3>🎥 Видеонаблюдение</h3>
+                <p>Dahua NVR • 64 камеры • RAID 0</p>
+            </div>
+            <div class="skill-card">
+                <h3>🌐 Сети</h3>
+                <p>LAN/WAN • VLAN • CCNA basics</p>
+            </div>
+            <div class="skill-card">
+                <h3>🐧 Linux</h3>
+                <p>Ubuntu Server • Bash • NVR setup</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- О себе -->
+    <section id="about" class="about">
+        <h2>О себе</h2>
+        <p>Специалист по видеонаблюдению и IT из Баку. 36 лет. Настраиваю сложные системы безопасности и сети. Учусь веб-разработке.</p>
+    </section>
+
+    <!-- Контакты -->
+    <section id="contact" class="contact">
+        <h2>Контакты</h2>
+        <div class="contact-links">
+            <a href="https://github.com/zaursadikhov89" class="contact-btn">GitHub</a>
+            <a href="mailto:your@email.com" class="contact-btn">Email</a>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Заур Садыхов. Сделано на GitHub Pages</p>
+    </footer>
 </body>
 </html>
-
-
